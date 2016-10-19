@@ -226,10 +226,10 @@ div {
 }
         #apDiv24 {
 	position: absolute;
-	width: 531px;
+	width: 700px;
 	height: 21px;
 	z-index: 1;
-	left: 220px;
+	left: 120px;
 	top: 142px;
 	color: #006680;
 	border-top-color: #006680;
@@ -324,7 +324,7 @@ li{
 	margin: 3px;
 	border-radius: 7px;
 	box-shadow: inset 0px 0px 10px white;
-	margin-top: 7px;
+	margin-top: 0px;
 }
 section{
 	width: 713px;
@@ -400,7 +400,7 @@ p {
 .submenu{
 	display:none;
 	position: absolute;
-	top: 7;	
+	top: 40px;	
 	left: -40px;
 	list-style-type:none;
 	color: #FF6600;	
