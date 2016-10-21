@@ -491,7 +491,7 @@ aside{
 	background-color:#666; 
 	width: 600px;
 	height: 220px;
-	z-index: 12;
+	z-index: 1;
 	font-size: 12px;
 	color: #9B9B9B;
 	left: 60px;
@@ -511,6 +511,9 @@ aside{
 	top: 0px;
 
 }
+
+
+
 
 #textomancho {
 	position: absolute;
