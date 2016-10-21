@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?><actividad tipo="Completar">
+
+<!-- Parte generica -->
+	<!-- Indica que color de fondo se le pondra al flash (por defecto 0x8993A0) -->
+	<color_fondo>0x8993A0</color_fondo>
+	<!-- Indica que color se le pondra a los elementos del flash (por defecto 0x728F61) -->
+	<color_botones>0xff8a00</color_botones>
+    <!-- Indica que color de fondo se le pondra al html5 (por defecto 0x7cb139) -->
+	<color_fondo_h>0x7cb139</color_fondo_h>
+	<!-- Indica que color se le pondra a los elementos del html5 (por defecto 0xFCA800) -->
+	<color_botones_h>0xFCA800</color_botones_h>
+    <!-- Indica el logo personalizado si lo hay -->
+    <logoPersonalizado>no</logoPersonalizado>
+	<!-- Indica si se mostrara al alumno la respuesta correcta o no, en caso de que el alumno no supere el ejercicio -->
+	<correccion>si</correccion>
+	<numero_intentos>2</numero_intentos>
+    <puntos>100</puntos>
+	<puntos_resta>50</puntos_resta>
+	<!-- Indica si la respuesta del alumno debe ser igual a la respuesta correcta en lo referente a las mayusculas y acentos, solo en el caso de que la forma de completar sea escrita -->
+	<sensible_mayusculas>no</sensible_mayusculas>
+	<sensible_acentos>no</sensible_acentos>
+	<!-- Indica si tiene un tiempo maximo para realizar la actividad, estara definido en segundos -->
+	<tiempo maximo="0">no</tiempo>
+	
+	<autor>Germán González</autor>
+	<descripcionUsuario>Este juego permitir&amp;aacute; a los estudiantes a afianzar conceptos sobre el Curso de L&amp;ouml;gica de programaci&amp;oacute;n.</descripcionUsuario>
+    <descripcionUsuarioLimpio>Este juego permitirá a los estudiantes a afianzar conceptos sobre el Curso de Lögica de programación.</descripcionUsuarioLimpio>
+	<origen_recursos></origen_recursos><xorigen_recursos>https://d3c41a1a64ri6i.cloudfront.net/recursos/82/2645161/</xorigen_recursos>
+	
+      <registro>
+		<!-- Indica el tipo de registro:
+		- script -> registro a traves de un script (php, jsp, etx)
+		- scorm -> registreo a traves de scorp
+		-->
+		<tipo>script</tipo>
+		<!-- Indica la url del scrip, en caso de que el tipo sea script	-->
+		<url>https://www.educaplay.com/registro.php?idActividad=2645161&amp;t=eecccd8ff4107946c78d42265cd474b5&amp;</url>
+		<!-- Indica los parametros a pasar al script, en caso de que el tipo sea script	-->
+		<parametros>
+			<!-- La etiqueta nombre contiene el nombre del parametro a pasar -->
+			<!-- La etiqueta valor contiene el valor al que hace referencia el parametro (buscara el nombre de la varible en flash):
+			- SCORE: puntuacion de la actividad, en porcentaje
+			- TIME: tiempo de la actividad, en segundos
+			- URL: direccion de la actividad
+			-->
+			<parametro id="1">
+				<nombre>score</nombre>
+				<valor>SCORE</valor>
+			</parametro>
+			<parametro id="2">
+				<nombre>time</nombre>
+				<valor>TIME</valor>
+			</parametro>
+			<parametro id="3">
+				<nombre>url</nombre>
+				<valor>URL</valor>
+			</parametro>
+		</parametros>
+	</registro>
+    
+<!-- Parte especifica -->
+	<!-- Indica si se mostrara al alumno las palabras que estan ocultas -->
+	<ayuda>si</ayuda>
+	<!-- Indica la forma de completar los huecos, 2 opciones:
+	- escribir
+	- clickar, esta forma conlleva a que la ayuda este activada
+	-->
+	<forma_completar>escribir</forma_completar>
+	<titulo>Instrucciones</titulo>
+	
+	<tituloAplicacion>Completando ando!</tituloAplicacion>
+	
+	<!-- Indica la forma de realizar la actividad, es decir la ayuda de la actividad -->
+	<descripcion>Intenta completar el texto con las palabras que faltan.
+        Para ello, pulsa sobre los huecos y escribe la palabra correcta en cada uno de ellos.
+    
+</descripcion>
+	<enunciado>Complete el siguiente texto, relacionando los conceptos de lógica de programación:</enunciado>
+    <!-- parametro solo para la importación a ADR -->
+    <enunciado_edu>Completando ando!</enunciado_edu>
+    
+	<texto>Algoritmos de programacion</texto>
+    <textoLimpio>Algoritmos de programacion</textoLimpio>
+	<!-- Las palabras que seran eliminadas del texto -->
+	<palabras>
+    		<palabra>0</palabra>
+    		<palabra>14</palabra>
+    	</palabras>
+	
+    
+        <idioma>
+		<nIntentos>Num. Intentos</nIntentos>
+		<txtPuntos>Puntos</txtPuntos>
+		<txtTiempo>Tiempo</txtTiempo>
+		<txtTiempoRestante>Tiempo Restante</txtTiempoRestante>
+		<comprobar>Comprobar</comprobar>
+
+		<txtRespuestaIncorrecta>Respuesta Incorrecta</txtRespuestaIncorrecta>
+		<txtActNoSuperada>Actividad no superada</txtActNoSuperada>
+		<txtTiempoSuperado>Has superado el tiempo máximo para esta actividad</txtTiempoSuperado>
+		<txtCerrar>Cerrar</txtCerrar>
+		<txtRespuestaCorrecta>La respuesta correcta es</txtRespuestaCorrecta>
+		<txtOtrasRespuestas>Otras respuestas</txtOtrasRespuestas>
+		<txtTituloRespuestaCorrecta>Respuesta correcta</txtTituloRespuestaCorrecta>
+		<txtBoxRespuestaCorrecta>Enhorabuena has superado la actividad</txtBoxRespuestaCorrecta>
+		<txtTituloOtrasRespuestas>Otras posibles respuestas</txtTituloOtrasRespuestas>
+		<txtSuperadoNumeroIntentos>Has superado el número de intentos de esta actividad</txtSuperadoNumeroIntentos>
+		<txtTituloSuperadoNumeroIntentos>Actividad no superada</txtTituloSuperadoNumeroIntentos>
+        
+   		<txtAceptar>Aceptar</txtAceptar>
+   		<txtTituloPalabrasParaCompletar>Palabras para completar los espacios</txtTituloPalabrasParaCompletar>
+   		<txtMsgNoCompleta>No ha completado todos los huecos por lo que la respuesta no es correcta</txtMsgNoCompleta>
+		<txtMsgNoCorrecta>La respuesta introducida no es correcta</txtMsgNoCorrecta>
+		<txtPalabraYaIntroducida>La palabra introducida, ya está en otro hueco</txtPalabraYaIntroducida>
+		<txtPalabraIncorrecta>La palabra introducida no está entre las opciones restantes</txtPalabraIncorrecta>
+
+   		<txtSensibleMayusculas>Diferencia entre mayúsculas y minúsculas</txtSensibleMayusculas>
+		<txtNoSensibleMayusculas>No diferencia entre mayúsculas y minúsculas</txtNoSensibleMayusculas>
+		<txtSensibleAcentos>Sensible a acentos</txtSensibleAcentos>
+		<txtNoSensibleAcentos>No sensible a acentos</txtNoSensibleAcentos>
+		
+		<txtTiempoMaximo>Tiempo máximo</txtTiempoMaximo>
+		<txtSensible>Sensible</txtSensible>
+		<txtMayusculasMinusculas>Mayúsculas/Minúsculas</txtMayusculasMinusculas>
+		<txtAcentos>Acentos</txtAcentos>
+		<txtComenzar>Comenzar</txtComenzar>
+		<txtAutor>Autor</txtAutor>
+		<txtAyuda>Ayuda</txtAyuda>
+		<txtMostrarMas>Mostrar más</txtMostrarMas>
+		<txtMostrarMenos>Mostrar menos</txtMostrarMenos>
+		<txtReiniciar>Reiniciar</txtReiniciar>
+		<txtVolverJugar>Volver a jugar</txtVolverJugar>
+		<txtResponder>Responder</txtResponder>
+		<txtRegistrarse>Registrarse</txtRegistrarse>
+		<txtAcceder>Acceder</txtAcceder>
+		<txtCompartirResultado>Compartir resultado</txtCompartirResultado>
+		<txtAumentar>Aumentar</txtAumentar>
+		<txtReducir>Reducir</txtReducir>
+		<txtPantallaCompleta>Pantalla completa</txtPantallaCompleta>
+		<txtImprimir>Imprimir</txtImprimir>
+
+	</idioma>
+
+
+</actividad>

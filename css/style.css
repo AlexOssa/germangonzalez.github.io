@@ -134,8 +134,31 @@ div {
 	height: 41px;
 	z-index: 2;
 	left: 64px;
-	top: 982px;
+	top: 980px;
 }
+
+
+     #apDiv133 {
+	position: absolute;
+	width: 225px;
+	height: 41px;
+	z-index: 2;
+	left: 64px;
+	top: 1530px;
+}
+
+ #apDiv1333 {
+	position: absolute;
+	width: 225px;
+	height: 41px;
+	z-index: 2;
+	left: 64px;
+	top: 1140px;
+}
+
+
+
+
         #apDiv14 {
 	position: absolute;
 	width: 98px;
@@ -244,16 +267,68 @@ div {
 	font-size: 12px;
 	color: #FFF;
 }
+
+
+
+   #apDiv255 {
+	position: absolute;
+	width: 360px;
+	height: 30px;
+	z-index: 10;
+	left: 436px;
+	top: 1540px;
+	font-size: 12px;
+	color: #FFF;
+}
+
+
+   #apDiv2555 {
+	position: absolute;
+	width: 360px;
+	height: 30px;
+	z-index: 10;
+	left: 436px;
+	top: 1150px;
+	font-size: 12px;
+	color: #FFF;
+}
+
+
         #apDiv26 {
 	position: absolute;
 	width: 576px;
 	height: 26px;
 	z-index: 11;
 	left: 328px;
-	top: 996px;
+	top: 990px;
 	font-size: 12px;
 	color: #FFF;
 }
+
+
+  #apDiv266 {
+	position: absolute;
+	width: 576px;
+	height: 26px;
+	z-index: 11;
+	left: 328px;
+	top: 1550px;
+	font-size: 12px;
+	color: #FFF;
+}
+
+  #apDiv2666 {
+	position: absolute;
+	width: 576px;
+	height: 26px;
+	z-index: 11;
+	left: 328px;
+	top: 1140px;
+	font-size: 12px;
+	color: #FFF;
+}
+
+
         #apDiv27 {
 	position: absolute;
 	width: 200px;
@@ -262,8 +337,32 @@ div {
 	font-size: 12px;
 	color: #FFF;
 	left: 516px;
-	top: 1012px;
+	top: 1000px;
 }
+
+
+  #apDiv277 {
+	position: absolute;
+	width: 200px;
+	height: 31px;
+	z-index: 12;
+	font-size: 12px;
+	color: #FFF;
+	left: 516px;
+	top: 1560px;
+}
+ #apDiv2777 {
+	position: absolute;
+	width: 200px;
+	height: 31px;
+	z-index: 12;
+	font-size: 12px;
+	color: #FFF;
+	left: 516px;
+	top: 1160px;
+}
+
+
 #contenidos{
 	width: 1000px;
 	height: auto;
@@ -334,6 +433,26 @@ section{
 	margin-top: 7px;
 	border-radius: 10px 0px 0px 0px;
 }
+
+.multimedia{
+	width: 713px;
+	background: white;
+	height: 1270px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px;
+}
+
+.multimedia2{
+	width: 713px;
+	background: white;
+	height: 880px;
+	float: left;
+	margin-top: 7px;
+	border-radius: 10px 0px 0px 0px;
+}
+
+
 aside{
 	width: 280px;
 	background: white;
@@ -343,6 +462,71 @@ aside{
 	margin-top: 7px;
 	border-radius: 0px 10px 0px 0px;
 }
+
+#lateral1{
+	width: 280px;
+	background: white;
+	height: 1270px;
+	float: left;
+	margin-left: 7px;
+	margin-top: 7px;
+	border-radius: 0px 10px 0px 0px;
+}
+
+#lateral2{
+	width: 280px;
+	background: white;
+	height: 870px;
+	float: left;
+	margin-left: 7px;
+	margin-top: 7px;
+	border-radius: 0px 10px 0px 0px;
+}
+
+
+
+
+ #marco {
+	position: absolute;
+	background-color:#666; 
+	width: 600px;
+	height: 220px;
+	z-index: 12;
+	font-size: 12px;
+	color: #9B9B9B;
+	left: 60px;
+	top: 300px;
+	border-radius: 15px; 
+}
+
+ 
+
+ #mancho {
+	position: absolute;
+	width: 200px;
+	height: auto;
+	z-index: 12;
+	font-size: 12px;
+	left: 0px;
+	top: 0px;
+
+}
+
+#textomancho {
+	position: absolute;
+	width: 360px;
+	height: 190px;
+	z-index: 12;
+	font-size: 15px;
+	left: 220px;
+	top: 10px;
+	padding-top:10px;
+	padding-left: 10px;
+	text-align:left; 
+	background: #FFFFFF;
+
+}
+
 footer{
 	width: 1000px;
 	height: 70px;
