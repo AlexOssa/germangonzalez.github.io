@@ -609,3 +609,23 @@ p {
 	margin-top: 7px;
 	border-radius: 10px 0px 0px 0px;
 }
+
+
+#fotog {
+	color:#FF5900;
+	background:white;
+	width:530px;
+	margin:10px;
+	height:150px;
+	border:1px solid white;
+	border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	box-shadow:3px 3px 10px black;
+	-webkit-box-shadow:3px 3px 10px black;
+	padding:10px 10px 10px 150px;
+	opacity:1;
+	transition:opacity 1s,box-shadow 1s,transform 1s,background 1s;
+	-webkit-transition:opacity 1s,-webkit-box-shadow 1s,-webkit-transform 1s,background 1s,color 1s;
+	transform:scale(1,1);
+	-webkit-transform:scale(1,1);
+}
