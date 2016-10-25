@@ -384,8 +384,6 @@ div {
 	margin-top: 7px;
 	border-radius: 0px 10px 0px 0px;
 }
- 
-
  #german {
 	width:100px;
 	height:100px;
@@ -403,9 +401,25 @@ div {
 	position:absolute;
 	transform:translate(-140px,0px);
 	-webkit-transform:translate(-140px,0px);
-	z-index: 3;
 }
-
+#fotog {
+	color:#FF5900;
+	background:white;
+	width:530px;
+	margin:10px;
+	height:150px;
+	border:1px solid white;
+	border-radius:5px 5px 5px 5px;
+	-webkit-border-radius:5px 5px 5px 5px;
+	box-shadow:3px 3px 10px black;
+	-webkit-box-shadow:3px 3px 10px black;
+	padding:10px 10px 10px 150px;
+	opacity:1;
+		transition:opacity 1s,box-shadow 1s,transform 1s,background 1s;
+	-webkit-transition:opacity 1s,-webkit-box-shadow 1s,-webkit-transform 1s,background 1s,color 1s;
+	transform:scale(1,1);
+	-webkit-transform:scale(1,1);
+}
 
 /*ETIQUETAS*/
 body{
@@ -493,8 +507,6 @@ section{
 	margin-top: 7px;
 	border-radius: 10px 0px 0px 0px;
 }
-
-
 aside{
 	width: 280px;
 	background: white;
@@ -504,8 +516,6 @@ aside{
 	margin-top: 7px;
 	border-radius: 0px 10px 0px 0px;
 }
-
-
 footer{
 	width: 1000px;
 	height: 70px;
@@ -518,7 +528,6 @@ footer{
 	text-align: left;
 }
 p{
-
 	font-size: 15px;
 	font-weight: bolder;
 	line-height: 24px;
@@ -552,8 +561,6 @@ p {
 	font-weight: normal;
 	color: #333;
 }
-
-
 .menu > li:hover{	
 	cursor:pointer;
 	color: #FF6600;
@@ -571,27 +578,18 @@ p {
 
 .menu > li{
 	position: relative;
-	
 }
-
 .menu > li:hover > .submenu{
 	
 	display: block;
 }
-
-
-
-
 .submenu:hover {	
 				color: #FF6600;
 				text-decoration: none;
 			}
-
 .submenu:visited{
-	color: #FFF;
-	
+	color: #FFF;	
 }
-
 .multimedia{
 	width: 713px;
 	background: white;
@@ -600,7 +598,6 @@ p {
 	margin-top: 7px;
 	border-radius: 10px 0px 0px 0px;
 }
-
 .multimedia2{
 	width: 713px;
 	background: white;
@@ -608,24 +605,4 @@ p {
 	float: left;
 	margin-top: 7px;
 	border-radius: 10px 0px 0px 0px;
-}
-
-
-#fotog {
-	color:#FF5900;
-	background:white;
-	width:530px;
-	margin:10px;
-	height:150px;
-	border:1px solid white;
-	border-radius:5px 5px 5px 5px;
-	-webkit-border-radius:5px 5px 5px 5px;
-	box-shadow:3px 3px 10px black;
-	-webkit-box-shadow:3px 3px 10px black;
-	padding:10px 10px 10px 150px;
-	opacity:1;
-	transition:opacity 1s,box-shadow 1s,transform 1s,background 1s;
-	-webkit-transition:opacity 1s,-webkit-box-shadow 1s,-webkit-transform 1s,background 1s,color 1s;
-	transform:scale(1,1);
-	-webkit-transform:scale(1,1);
 }
